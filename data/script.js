@@ -32,7 +32,7 @@ function myFunction() {
     //Output += `<li class="test";>${hours}:${min}</li>` + `<div>${post.name}<br>${post.description}</div><hr>`;
     //document.getElementById('program').innerHTML = Output;
 
-  document.getElementById("showAll").innerHTML = "JAG BLIR TOKIG AV ATT INTE HA LÖST DENNA";
+  document.getElementById("showAll").innerHTML = "N/A";
 
   
 }
