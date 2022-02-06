@@ -67,7 +67,7 @@ document.querySelector('.menu-icon').addEventListener('click', function () {
 
 //PART 3, SET DEFAULT CHANNEL TO BEEN SEEN WHEN SITE IS LOADING
 document.getElementById('js-title').innerHTML = "SVT 1";
-fetch("/Labb 1/data/SVT 1.json")
+fetch("/data/SVT 1.json")
     .then(function (res) {
         return res.json();
     })
@@ -132,7 +132,7 @@ const setChannel = (channel) => {
     }
 
     //FETCHING CONTENT FROM JSON
-    fetch("/Labb 1/data/" + channel + ".json")
+    fetch("/data/" + channel + ".json")
         .then(function (res) {
             return res.json();
         })
